@@ -1,0 +1,75 @@
+@media screen and (max-width: 1300px) {
+  #hero {
+    min-height: 75vh;
+    padding-top: 77px;
+  }
+  #hero p {
+    font-size: 0.9rem;
+  }
+  #hero h1 {
+    font-size: 1.9rem;
+  }
+  .sosial-icon {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #skill .card {
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    min-height: 105vh;
+    padding-top: 50px;
+  }
+  #hero img {
+    width: 90%;
+  }
+  .sosial-icon {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .btn-custom {
+    width: 80%;
+  }
+  #hero .row {
+    padding-bottom: 75px;
+  }
+  #about p {
+    text-align: justify !important;
+  }
+  #skill .card h3 {
+    font-size: 1.3rem;
+  }
+  #skill .card {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 10px;
+  }
+  #projects .col-md-12 {
+    flex-direction: column;
+  }
+  #skill img {
+    width: 15%;
+    margin: 6px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #projects .col-md-12 {
+    flex-direction: column;
+  }
+  hr {
+    width: 75%;
+  }
+  #skill img {
+    width: 20%;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
